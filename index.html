@@ -1,89 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            My Site!
-        </title>
-        <style>
-            .My-name {
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            }
-    
-            .Image-main {
-              background-color: antiquewhite;
-              padding: 12px 20px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            }
-            
-        body {
-            background-color: gray;
-        }
-
-        .topnav {
-            overflow: hidden;
-            background-color: antiquewhite;
-        }
-        .topnav a {
-            float: left;
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-        .topnav a:hover {
-background-color: black;
-color: antiquewhite;
-        }
-        .topnav a.active {
-            background-color: black;
-            color: antiquewhite;
-        }
-        
-            </style>
-       
-    </head>
-
-    <body>
-        <div class="topnav">
-            <a class="active" href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
+<head>
+<meta charset="utf-8">
+<title>HTML Div Layout</title>
+<style>
+    body {
+        font: 14px Arial,sans-serif; 
+        margin: 0px;
+    }
+    .header {
+        padding: 10px 20px;
+        background: #acb3b9; 
+    }
+    .header h1 {
+        font-size: 24px;
+    }
+    .container {
+        width: 100%;
+        background: #f2f2f2; 
+    }
+    .nav, .section {
+        float: left; 
+        padding: 20px;
+        min-height: 170px;
+        box-sizing: border-box;
+    }
+    .nav {            
+        width: 20%;             
+        background: #d4d7dc;
+    }
+    .section {
+        width: 80%;
+    }
+    .nav ul {
+        list-style: none; 
+        line-height: 24px;
+        padding: 0px; 
+    }
+    .nav ul li a {
+        color: #333;
+    }    
+    .clearfix:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    .footer {
+        background: #acb3b9;            
+        text-align: center;
+        padding: 5px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Tutorial Republic</h1>
         </div>
-        <div class="My-name">
-        <table>
-            <tr>
-                <p style="font-family: 'Dancing Script' , cursive; color: antiquewhite; font-size: 500%;" > My name is Somkene</p>
-            </tr>
-        </table>
+        <div class="wrapper clearfix">
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Welcome to our site</h2>
+                <p>Here you will learn how to create websites...</p>
+            </div>
         </div>
-        <div class="Image-main">
-
-        <img src="IMG_6548.jpg" alt="My Photo" style="width:945px; height:745px;">
+        <div class="footer">
+            <p>copyright &copy; tutorialrepublic.com</p>
+        </div>
     </div>
-
-    <table>
-        <tr>
-          <th>Firstname</th>
-          <td>Jill</td>
-          <td>Eve</td>
-        </tr>
-        <tr>
-          <th>Lastname</th>
-          <td>Smith</td>
-          <td>Jackson</td>
-        </tr>
-        <tr>
-          <th>Age</th>
-          <td>94</td>
-          <td>50</td>
-        </tr>
-      </table> 
-    </body>
-
+</body>
 </html>
