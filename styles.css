@@ -27,5 +27,5 @@ min-height:100px;
     font-size: 80px;
     font-family: "Sofia", sans-serif;
     text-shadow: 3px 3px 3px #ababab;
-    align-content: center;
+    justify-items: center;
 }
