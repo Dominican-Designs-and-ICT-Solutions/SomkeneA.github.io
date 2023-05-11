@@ -26,5 +26,6 @@ min-height:100px;
 .header {
     font-size: 80px;
     font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
     align-content: center;
 }
