@@ -22,3 +22,8 @@ min-height:100px;
 .flexbox-item3{
     min-height:300px;
 }
+
+.header {
+    font-size: 80px;
+    font-family: dancing script;
+}
