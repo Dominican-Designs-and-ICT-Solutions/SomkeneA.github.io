@@ -31,8 +31,9 @@ min-height:100px;
 }
 
 .body-content{
+    display: flex;
     max-width:70% ;
-    align-content: center ;
+    align-items: center ;
     font-family:Arial, Helvetica, sans-serif ;
     text-align: center;
     font-size: 20px;
