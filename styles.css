@@ -17,14 +17,9 @@ min-height:100px;
 }
 
 .flexbox-item2 {
-    position :absolute ;
-    top : 10px;
-    left: 50%;
-    right: 50%;
+    position :relative ;
     min-height: 250%;
-    background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: cover;
     background-image: url(Banner1.PNG);
 }
 .flexbox-item3{
