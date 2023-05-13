@@ -59,6 +59,7 @@ p {
     border-radius: 10px;
     width: 70%;
     position:relative;
+    border-collapse: separate;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
