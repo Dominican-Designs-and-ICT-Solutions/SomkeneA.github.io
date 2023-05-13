@@ -53,6 +53,7 @@ p {
 
 }
 .paragraph {
+    display: flex;
     background-color: #f1eded;
     font-size:17px ;
     border: 2px #ababab;
