@@ -45,8 +45,10 @@ h1 {
     text-align: center;
 }
 .paragraph {
+    background-color: #ecebeb;
     font-size:17px ;
     border: 2px #ababab;
     border-radius: 4px;
     width: 50%;
+    align-self: center;
 }
