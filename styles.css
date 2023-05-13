@@ -17,10 +17,11 @@ min-height:100px;
 }
 
 .flexbox-item2 {
-    position :relative ;
-    min-height: 250%;
-    background-repeat: no-repeat;
+    background-color: blue;
     background-image: url(Banner1.PNG);
+    background-size: cover;
+    padding-top:100px ;
+    padding-bottom: 100px;
 }
 .flexbox-item3{
     min-height:300px;
