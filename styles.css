@@ -51,4 +51,8 @@ h1 {
     border-radius: 4px;
     width: 50%;
     align-self: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
