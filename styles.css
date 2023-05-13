@@ -16,8 +16,9 @@
 min-height:100px;
 }
 
-.flexbox-item2{
+.flexbox-item2 {
     min-height:200px;
+    background-image: url(Banner.PNG);
 }
 .flexbox-item3{
     min-height:300px;
