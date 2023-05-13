@@ -17,7 +17,6 @@ min-height:100px;
 }
 
 .flexbox-item2 {
-    display: flex;
     background-color: blue;
     background-image: url(Banner1.PNG);
     background-size: cover;
@@ -51,10 +50,12 @@ p {
     text-align: center;
     text-size-adjust: auto;
     word-wrap: normal;
+    margin: 20%;
 
 }
 .paragraph {
     display: flex;
+    margin:20%;
     background-color: #f1eded;
     font-size:17px ;
     border: 2px #ababab;
