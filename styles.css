@@ -63,8 +63,8 @@ p {
     width: 70%;
     position:relative;
     border-collapse: separate;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
