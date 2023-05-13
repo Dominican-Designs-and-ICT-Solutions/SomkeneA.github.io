@@ -46,4 +46,7 @@ h1 {
 }
 .paragraph {
     font-size:17px ;
+    border: 2px #ababab;
+    border-radius: 4px;
+    width: 50%;
 }
