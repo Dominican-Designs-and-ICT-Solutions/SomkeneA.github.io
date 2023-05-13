@@ -45,12 +45,11 @@ h1 {
     text-align: center;
 }
 .paragraph {
-    background-color: #ecebeb;
+    background-color: #f1eded;
     font-size:17px ;
     border: 2px #ababab;
-    border-radius: 4px;
-    width: 50%;
-    align-self: center;
+    border-radius: 8px;
+    width: 70%;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
