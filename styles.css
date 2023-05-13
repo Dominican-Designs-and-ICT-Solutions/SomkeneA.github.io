@@ -45,11 +45,18 @@ min-height:100px;
 h1 {
     text-align: center;
 }
+
+p {
+    text-align: center;
+    text-size-adjust: auto;
+    word-wrap: normal;
+
+}
 .paragraph {
     background-color: #f1eded;
     font-size:17px ;
     border: 2px #ababab;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 70%;
     position:relative;
     padding-top: 50px;
