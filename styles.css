@@ -12,7 +12,6 @@
 .header-main div {
     height: 20px;
     margin: 10px;
-    text-align: start;
 }
 .header-main .div-1{
     width: fit-content;
@@ -33,7 +32,7 @@
 }
 
 .div-1-nav{
-align-content: center;
+align-self: center;
 }
 .image{
     width: 100%;
