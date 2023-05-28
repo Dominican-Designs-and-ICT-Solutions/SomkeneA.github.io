@@ -3,7 +3,7 @@
     height: 40px;
     background-color: #000;
     display: flex;
-    
+    justify-content: center;
 }
 
 
