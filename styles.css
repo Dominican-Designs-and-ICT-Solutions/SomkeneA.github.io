@@ -14,7 +14,7 @@
     margin: 10px;
 }
 .header-main .div-1{
-    width: 100px;
+    width: fit-content;
     background-color: #dad9df;
     
 }
