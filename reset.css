@@ -1,0 +1,24 @@
+/* reset.css */
+
+/* Resetting list styles */
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Optionally, you can provide your own list styles */
+  ul {
+    /* Example list styles */
+    list-style-type: disc; /* bullet points */
+    /* Other styling properties */
+    margin-left: 20px;
+  }
+  
+  ol {
+    /* Example list styles */
+    list-style-type: decimal; /* numbers */
+    /* Other styling properties */
+    margin-left: 20px;
+  }
+  
