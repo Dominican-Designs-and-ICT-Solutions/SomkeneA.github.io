@@ -12,6 +12,7 @@
 .p {
     text-align: center;
     align-content: center;
+    justify-self: center;
 }
 
 .header-main div {
