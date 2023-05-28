@@ -1,6 +1,6 @@
 .header-main{
     width: 100%;
-    height: 60px;
+    height: 40px;
     background-color: #000;
     display: flex;
     flex-direction: row;
@@ -9,21 +9,21 @@
 }
 
 .header-main div {
-    height: 30px;
+    height: 20px;
 }
 .header-main .div-1{
     width: 100px;
-    background-color: #dac0f1;
+    background-color: #dad9df;
 }
 
 .header-main .div-2{
     width: 100px;
-    background-color: #dac0f1;
+    background-color: #dad9df;
 }
 
 .header-main .div-3{
     width: 100px;
-    background-color: #dac0f1;
+    background-color: #dad9df;
 }
 .image{
     width: 100%;
