@@ -6,7 +6,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    gap: 20px 10px;
+    justify-content: center;
 }
 
 .header-main div {
