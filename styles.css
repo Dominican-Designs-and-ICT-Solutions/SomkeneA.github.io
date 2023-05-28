@@ -16,24 +16,23 @@
 .header-main .div-1{
     width: 100px;
     background-color: #dad9df;
-    display: flex;
+    
 }
 
 .header-main .div-2{
     width: 100px;
     background-color: #dad9df;
-    display: flex;
+   
 }
 
 .header-main .div-3{
     width: 100px;
     background-color: #dad9df;
-    display: flex;
+
 }
 
-.header-main p{
-    font-weight: 15px;
-    align-items: center;
+.div-1-nav{
+align-content: center;
 }
 .image{
     width: 100%;
