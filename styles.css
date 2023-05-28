@@ -14,9 +14,10 @@
     width: fit-content;
     height: 30px;
     background-color: #dad9df;
-    flex-wrap: wrap;
+    
 }
 
 .nav1-txt{
 justify-self: center;
+flex-wrap: wrap;
 }
