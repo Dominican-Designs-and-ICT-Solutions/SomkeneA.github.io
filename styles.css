@@ -33,6 +33,7 @@
 
 .div-1-nav{
 align-content: center;
+justify-self: start;
 }
 .image{
     width: 100%;
