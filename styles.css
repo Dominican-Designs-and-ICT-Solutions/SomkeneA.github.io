@@ -11,8 +11,11 @@
 
 
 .header-nav1{
-    width: 100px;
-    height: 20px;
+    width: fit-content;
+    height: 30px;
     background-color: #dad9df;
-    flex-wrap: wrap;
+}
+
+.nav1-txt{
+
 }
