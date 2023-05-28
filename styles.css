@@ -9,9 +9,12 @@
     align-content: center;
 }
 
+.p {
+    text-align: center;
+}
+
 .header-main div {
     height: 20px;
-    align-content: center;
 }
 .header-main .div-1{
     width: 100px;
