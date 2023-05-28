@@ -3,6 +3,9 @@
     height: 60px;
     background-color: #000;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .header-main div {
