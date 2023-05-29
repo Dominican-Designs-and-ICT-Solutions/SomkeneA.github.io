@@ -5,8 +5,26 @@
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
+}
+
+.header-main-logo{
+    width: 100px;
+    height: 100%;
+    background-color: #000;
+}
+
+.header-main-nav{
+    width: 100px;
+    height: 100%;
+    background-color: #000;
+}
+
+.header-main-sm{
+    width: 100px;
+    height: 100%;
+    background-color: #000;
 }
 
 .image {
