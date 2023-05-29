@@ -6,20 +6,9 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .image {
     width: 100%;
-}
-
-.header-nav1{
-    width: fit-content;
-    height: 30px;
-    background-color: #dad9df;
-    display: flex;   
-}
-
-.nav1-txt{
-justify-self: center;
-flex-wrap: wrap;
 }
