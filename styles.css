@@ -58,7 +58,7 @@ color: rgb(255, 253, 253);
 .header-main-ig-logo{
 width: 50px;
 height: 50px;
-forced-color-adjust: aliceblue ;
+outline-color: azure;
 background-image: url(../SomkeneA.github.io/ig-blc.png);
 background-repeat: no-repeat;
 background-size: cover;
@@ -66,7 +66,7 @@ background-size: cover;
 .header-main-linkd-logo{
     width: 50px;
     height: 50px;
-    color: aliceblue;
+    outline-color: azure;
     background-image: url(../SomkeneA.github.io/linkd-blc.png);
     background-repeat: no-repeat;
     background-size: cover;
