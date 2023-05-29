@@ -10,7 +10,7 @@
 }
 
 .header-main-logo{
-    width: 100px;
+    width: fit-content;
     height: 100%;
     background-color: #000;
 }
