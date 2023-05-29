@@ -33,10 +33,13 @@ list-style: none;
 
 .header-main-nav ul li{
 display: inline;
+float: left;
+color: rgb(255, 253, 253);
+
 }
 
 .header-main-nav ul li a{
-    
+    padding: 0 10px;
 }
 
 .header-main-sm{
