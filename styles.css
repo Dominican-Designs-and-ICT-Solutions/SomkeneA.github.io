@@ -15,6 +15,9 @@
     background-color: #000;
 }
 
+.header-main-logo img {
+    height: 20px;
+}
 .header-main-nav{
     width: 100px;
     height: 100%;
