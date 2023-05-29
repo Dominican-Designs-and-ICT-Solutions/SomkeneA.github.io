@@ -72,6 +72,13 @@ background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.header-main-ig-logo :hover{
+    background-image: url(../SomkeneA.github.io/ig-cl.png);
+}
+.header-main-linkd-logo :hover{
+    background-image: url(../SomkeneA.github.io/linkd-cl.png);
+}
 .image {
     width: 100%;
 }
