@@ -13,6 +13,7 @@
     width: fit-content;
     height: 100%;
     background-color: #000;
+    display: flex;
 }
 
 .header-main-logo img {
