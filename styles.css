@@ -17,6 +17,7 @@ a {
     height: 100%;
     background-color: #000;
     display: flex;
+    padding-left: 50px;
 }
 
 .header-main-logo img {
