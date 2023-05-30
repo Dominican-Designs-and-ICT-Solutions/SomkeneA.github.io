@@ -1,4 +1,38 @@
+:root{
+    --site-color-01:rgb(6, 17, 175);
+    --site-color-01-hover: rgb(3, 5, 112);
+}
+
+h1{
+    font-size: 26px;
+    line-height: 32px;
+    color: #000;
+    font-family: Roboto;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-family: Roboto;
+    font-weight: 600;
+    text-transform: uppercase;
+   
+}
+p{
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    font-family: Roboto;
+   
+    
+}
 a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    font-family: Roboto;
     cursor: pointer;
 }
 body:after{
@@ -52,13 +86,14 @@ color: rgb(255, 253, 253);
 
 .header-main-nav ul li a{
     padding: 0 10px;
+    color: rgb(255, 253, 253);
     font-family: Arial, Helvetica, sans-serif;
     line-height: 60px;
     display: block;
     height: 100%;
 }
 .header-main-nav ul li a:hover{
-    color: rgb(170, 19, 170);
+    color: var(--site-color-01);
 }
 .header-main-sm{
     width: fit-content;
@@ -92,7 +127,4 @@ background-size: cover;
 
 .header-main-linkd-logo:hover{
     background-image: url(../SomkeneA.github.io/linkd-cl.png);
-}
-.image {
-    width: 100%;
 }
