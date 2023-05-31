@@ -4,17 +4,18 @@ main{
     background-color: rgb(128, 131, 133);
     margin-top: 60px;
     background-image: url(../SomkeneA.github.io/Me.png), url(../SomkeneA.github.io/Banner.png);
-    background-size: 75vh, cover;
+    background-size: 80vh, cover;
     background-repeat: no-repeat;
-    background-position: bottom, center;
+    background-position: bottom left calc(50% + 80px), center;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 100;
+    column-gap: 400px;
 }
 
 main .main-intro h1{
-margin-top: 70px;
+margin-top: 80px;
 font-size: 50px;
 line-height: 62px;
 }
@@ -31,7 +32,7 @@ main p{
         }
 main a{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 18px;
     display: block;
     background-color: var(--site-color-01);
@@ -48,14 +49,10 @@ main .main-quote p{
 
 
 main .main-intro{
-    position: relative;
-    right: 40vh;
-    padding-bottom: 8vh;
+    padding-bottom: 15vh;
 }
 
 main .main-quote{
-    position: relative;
-    left: 20vh;
     padding-bottom: 8vh;
 }
 
@@ -135,3 +132,101 @@ flex-wrap: wrap;
     margin-top: 8px;
     z-index: 100;
 }
+
+/*About Section */
+
+.index-about{
+    width: 100%;
+    padding: 60px 0;
+    background-color: rgb(174, 177, 179);
+   
+}
+
+.index-about-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+
+}
+
+.index-about-img img{
+width: 300px;
+/* border-radius: 300px; If you wish to round image with border radius */
+}
+
+.index-about-text{
+flex-basis: 450px;    
+
+}
+
+.index-about-text p{
+    padding: 18px 0;
+    }
+
+    .index-about-text a{
+        
+        font-size: 18px;
+        display: block;
+        height: 36px;
+        color: aliceblue;
+        background-color: var(--site-color-01);
+        padding: 10px 20px;
+        width: fit-content;
+                }
+
+.index-about-text a:hover{
+     background-color: var(--site-color-01-hover);
+ }
+
+ .index-about-skill {
+    flex-basis: 350px;
+ }
+
+ .index-about-skill-bar {
+    width: 100%;
+    height: 20px;
+    border: 2px solid rgb(8, 0, 34);
+    border-radius: 4px;
+ }
+
+ .index-about-skill-bar-fill {
+    height: 100%;
+    background-color: var(--site-color-01);
+ }
+
+ .htmlcss {
+    width: 85%;
+    height: 100%;
+    background-color: var(--site-color-01);
+ }
+
+ .js {
+    width: 70%;
+    height: 100%;
+    background-color: var(--site-color-01);
+ }
+
+ .pybash {
+    width: 70%;
+    height: 100%;
+    background-color: var(--site-color-01);
+ }
+ 
+ .ps {
+    width: 90%;
+    height: 100%;
+    background-color: var(--site-color-01);
+ }
+
+ .aws {
+    width: 80%;
+    height: 100%;
+    background-color: var(--site-color-01);
+ }
+
+ .cicd {
+    width: 70%;
+    height: 100%;
+    background-color: var(--site-color-01);
+ }
