@@ -3,7 +3,7 @@ main{
     
     background-color: rgb(128, 131, 133);
     margin-top: 60px;
-    background-image: url(../SomkeneA.github.io/Images/Me.png),url(../SomkeneA.github.io/Images/Banner.png);
+    background-image: url(../SomkeneA.github.io/Images/Me.png),url(../SomkeneA.github.io/Images/Banner.png) !important;
     background-size: 80vh, cover;
     background-repeat: no-repeat;
     background-position: bottom left calc(50% + 80px), center;
