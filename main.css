@@ -3,7 +3,7 @@ main{
     
     background-color: rgb(128, 131, 133);
     margin-top: 60px;
-    background-image: url(../SomkeneA.github.io/Images/Me.png),url(../SomkeneA.github.io/Images/Banner.png);
+    background-image: url(./SomkeneA.github.io/Images/Me.png),url(./SomkeneA.github.io/Images/Banner.png);
     background-size: 80vh, cover;
     background-repeat: no-repeat;
     background-position: bottom left calc(50% + 80px), center;
@@ -89,26 +89,26 @@ flex-wrap: wrap;
 
 }
 .index-category-box:nth-child(2){
-    background-image: url(../SomkeneA.github.io/Images/About.png);
+    background-image: url(./SomkeneA.github.io/Images/About.png);
     
 }
 
 .index-category-box:nth-child(3){
-    background-image: url(../SomkeneA.github.io/Images/EducationIcon.png);
+    background-image: url(./SomkeneA.github.io/Images/EducationIcon.png);
     
 }
 
 .index-category-box:nth-child(4){
-    background-image: url(../SomkeneA.github.io/Images/WebDevIcon.png);
+    background-image: url(./SomkeneA.github.io/Images/WebDevIcon.png);
     
 }
 
 .index-category-box:nth-child(5){
-    background-image: url(../SomkeneA.github.io/Images/GraphicsIcon.png);
+    background-image: url(./SomkeneA.github.io/Images/GraphicsIcon.png);
     
 }
 .index-category-box:nth-child(6){
-    background-image: url(../SomkeneA.github.io/Images/DevOpsIcon.png);
+    background-image: url(./SomkeneA.github.io/Images/DevOpsIcon.png);
     
 }
 
