@@ -1,6 +1,5 @@
 main{
     width: 100%;
-    
     background-color: rgb(128, 131, 133);
     margin-top: 60px;
     background-image: url(../SomkeneA.github.io/Me.png), url(../SomkeneA.github.io/Banner.png);
@@ -29,7 +28,7 @@ main .main-intro h3{
 main p{
         font-size: 18px;
         line-height: 30px;
-        }
+     }
 main a{
     margin-top: 20px;
     margin-bottom: 10px;
@@ -38,7 +37,7 @@ main a{
     background-color: var(--site-color-01);
     padding: 10px 20px;
     width: fit-content;
-            }
+}
 main .main-quote p{
     
     border-left: 3px solid var(--site-color-01);
@@ -162,9 +161,9 @@ flex-basis: 450px;
 
 .index-about-text p{
     padding: 18px 0;
-    }
+}
 
-    .index-about-text a{
+.index-about-text a{
         
         font-size: 18px;
         display: block;
@@ -173,7 +172,7 @@ flex-basis: 450px;
         background-color: var(--site-color-01);
         padding: 10px 20px;
         width: fit-content;
-                }
+}
 
 .index-about-text a:hover{
      background-color: var(--site-color-01-hover);
