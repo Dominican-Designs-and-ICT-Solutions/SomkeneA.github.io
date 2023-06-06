@@ -3,9 +3,13 @@
     --site-color-01-hover: rgb(3, 5, 112);
 }
 
+HTML{
+    font-size: 62.5%;
+}
+
 h1{
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 2.6rem;
+    line-height: 1.5;
     color: #000;
     font-family: Roboto;
     font-weight: 600;
@@ -13,8 +17,8 @@ h1{
 }
 
 h2{
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 2.8rem;
+    line-height: 1.6;
     color: #000;
     font-family: Roboto;
     font-weight: 600;
@@ -22,8 +26,8 @@ h2{
 }
 
 h3{
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.8rem;
+    line-height: 1.6;
     color: #000;
     font-family: Roboto;
     font-weight: 600;
@@ -31,16 +35,15 @@ h3{
    
 }
 p{
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 1.4rem;
+    line-height: 1.6;
     color: #000;
-    font-family: Roboto;
-   
-    
+    font-family: Roboto;  
 }
+
 a {
-    font-size:14px;
-    line-height: 18px;
+    font-size:  1.4rem;
+    line-height: 1.2;
     color: #000;
     font-family: Roboto;
     cursor: pointer;
@@ -67,7 +70,6 @@ margin: 0 auto;
     height: 60px;
     background-color: #000;
     display: flex;
-    flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
     z-index: 1000;
@@ -103,7 +105,7 @@ color: rgb(255, 253, 253);
 .header-main-nav ul li a{
     padding: 0 10px;
     color: rgb(255, 253, 253);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", cursive;
     line-height: 60px;
     display: block;
     height: 100%;
@@ -117,7 +119,7 @@ color: rgb(255, 253, 253);
     padding-right: 50px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    column-gap: 10px;
 }
 
 .header-main-ig-logo{
@@ -126,6 +128,7 @@ height: 50px;
 background-image: url(../Images/ig-blc.png);
 background-repeat: no-repeat;
 background-size: cover;
+transition: ease-in-out 200ms;
 }
 
 
@@ -139,8 +142,35 @@ background-size: cover;
     background-image: url(../Images/linkd-blc.png);
     background-repeat: no-repeat;
     background-size: cover;
+    transition: ease-in-out 200ms;
 }
 
 .header-main-linkd-logo:hover{
     background-image: url(../Images/linkd-cl.png);
+}
+
+.footer-main a{
+    color: aliceblue;
+}
+
+ /*Breakpoints <600px, 601px, 768px, 992px, 1200px*/
+
+ /*Mobile Version*/ 
+
+@media only screen and (max-width: 600px){
+    .wrapper-main{
+        width: calc (100%-40px);
+        }
+
+        .header-main-logo{
+            padding-left: 20px;
+        }
+
+        .header-main-nav{
+            display: none;
+        }
+
+        .header-main-sm{
+            padding-right: 20px;
+        }
 }
