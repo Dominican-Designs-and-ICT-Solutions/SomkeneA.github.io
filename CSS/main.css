@@ -452,17 +452,16 @@ flex-basis: 450px;
     
     .footer-sitemap ul:nth-child(1), 
     .footer-sitemap ul:nth-child(2), 
-    .footer-sitemap ul:nth-child(3){
+    .footer-sitemap ul:nth-child(3)
+    {
         flex-basis: 100%;
         text-align: center;
         padding-bottom: 20px;
      }
     
      .footer-sitemap ul:nth-child(4) li{
-        text-align: center;
-     }
+        text-align: center;  
+        padding-left: 60px;
+    }
     
-     .footer-sitemap p{
-        padding: 0 20px;
-     }
-}
+ }
