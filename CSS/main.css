@@ -339,14 +339,14 @@ flex-basis: 450px;
     
     main {
          align-items: flex-end;
-         background-size: 65vh, cover;
+         background-size: 63vh, cover;
     }
     main .main-intro {
         padding-bottom: 10vh ;
     }
 
     main .main-intro h1 {
-        margin: 50px;
+        margin: 40px;
         text-align: center;
         font-size: 5rem;
         line-height: 1.1;
