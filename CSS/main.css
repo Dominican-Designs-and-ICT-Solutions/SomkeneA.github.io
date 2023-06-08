@@ -501,17 +501,18 @@ flex-basis: 450px;
     
     .footer-sitemap ul:nth-child(1), 
     .footer-sitemap ul:nth-child(2), 
-    .footer-sitemap ul:nth-child(3),
-    .footer-sitemap ul:nth-child(4)
+    .footer-sitemap ul:nth-child(3)
+    
     {
         flex-basis: 100%;
         text-align: center;
         padding-bottom: 20px;
      }
     
-     .footer-sitemap ul:nth-child(4) li{
-        align-items: center;
-        
+    .footer-sitemap ul:nth-child(4) li{
+       /*margin-left: 100px; */
+       float: none;   
+       padding-left: 45px;
     }
     
  }
