@@ -331,12 +331,61 @@ flex-basis: 450px;
     text-transform: uppercase;
  }
 
+ .burger-menu, .burger-menu-btn {
+    display: none;
+ }
+
   /*Breakpoints <600px, 601px, 768px, 992px, 1200px*/
 
  /*Mobile Version*/
 
  @media only screen and (max-width: 600px){
+
+    .burger-menu-btn{
+        display: block;
+        width: 50px;
+        width: 50px;
+        background-image: url(../Images/MenuIcon.png), url(../Images/CloseIcon.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center, center left 50px;
+        margin-right: 10px;
+    }
+
+    .burger-menu{
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        z-index: 900;
+        background-color: rgb(255, 254, 254);
+        opacity: 0.95;
+    }
     
+    .burger-menu ul{
+        width: 100%;
+        height: calc(100vh-60px);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+    .burger-menu ul li{
+        flex-basis: 100%;
+        border-top: 2px solid rgb(224, 223, 223);
+    }
+    .burger-menu li:last-child{
+        border-bottom: 2px solid rgb(224, 223, 223) ;
+    }
+
+    .burger-menu ul li a{
+       display: block;
+       height: 100%;
+       font-size: 3rem;
+       padding: 30px 0;
+       flex-basis: 100%;
+       text-align: center;
+    }
     main {
          align-items: flex-end;
          background-size: 63vh, cover;
@@ -452,7 +501,8 @@ flex-basis: 450px;
     
     .footer-sitemap ul:nth-child(1), 
     .footer-sitemap ul:nth-child(2), 
-    .footer-sitemap ul:nth-child(3)
+    .footer-sitemap ul:nth-child(3),
+    .footer-sitemap ul:nth-child(4)
     {
         flex-basis: 100%;
         text-align: center;
@@ -460,8 +510,8 @@ flex-basis: 450px;
      }
     
      .footer-sitemap ul:nth-child(4) li{
-        text-align: center;  
-        padding-left: 60px;
+        align-items: center;
+        
     }
     
  }
