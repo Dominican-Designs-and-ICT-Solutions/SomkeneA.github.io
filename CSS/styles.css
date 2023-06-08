@@ -172,5 +172,6 @@ transition: ease-in-out 200ms;
 
         .header-main-sm{
             padding-right: 20px;
+            opacity: 0;
         }
 }
