@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deploy via SSH
-        uses: appleboy/ssh-action@v0.3.0
+        uses: appleboy/ssh-action@master
         with:
           host: 3.130.110.132
           username: ec2-user
