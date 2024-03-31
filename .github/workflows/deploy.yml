@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Additional steps for building the website if needed
 
       - name: Start SSH agent
-        uses: webfactory/ssh-agent@v0.5.3
+        uses: webfactory/ssh-agent@v0.6.0
         with:
           ssh-private-key: ${{ secrets.MY_PERSONAL_PROFILE }}
 
