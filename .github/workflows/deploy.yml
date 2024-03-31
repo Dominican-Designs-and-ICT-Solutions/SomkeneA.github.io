@@ -20,7 +20,7 @@ jobs:
         with:
           host: 3.130.110.132
           username: ec2-user
-          key: ${{ secrets.MY_PROFILE_WEBSITE }}
+          key: ${{ secrets.MY_PERSONAL_PROFILE }}
           port: 22
           script: |
             cd /var/www/html
