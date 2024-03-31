@@ -16,7 +16,7 @@ jobs:
       # Additional steps for building the website if needed
 
       - name: Deploy via SSH
-        uses: appleboy/ssh-action@v1.0.3 # Update the version as needed
+        uses: appleboy/ssh-action # Update the version as needed
         with:
           host: 3.130.110.132
           username: ec2-user
