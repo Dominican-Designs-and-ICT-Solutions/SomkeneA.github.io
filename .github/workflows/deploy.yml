@@ -15,14 +15,13 @@ jobs:
 
       # Additional steps for building the website if needed
 
-      - name: Deploy via SSH
-        uses: appleboy/ssh-action@1.0.3 # Update the version as needed
+      - name: Start SSH agent
+        uses: webfactory/ssh-agent@v0.5.3
         with:
-          host: 3.130.110.132
-          username: ec2-user
-          key: ${{ secrets.MY_PERSONAL_PROFILE }}
-          port: 22
-          script: |
-            cd /var/www/html
-            git pull origin main
-            # Additional commands to restart web server or perform other tasks
+          ssh-private-key: ${{ secrets.MY_PERSONAL_PROFILE }}
+
+      - name: Deploy via SSH
+        run: |
+          ssh -o StrictHostKeyChecking=no -p 22 ec2-user@3.130.110.132 "cd /var/www/html && git pull origin main"
+        env:
+          SSH_AUTH_SOCK: ${{ steps.start-ssh-agent.outputs.ssh-agent-socket }}
