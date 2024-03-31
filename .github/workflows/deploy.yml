@@ -1,0 +1,28 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Additional steps for building the website if needed
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v0.3.0
+        with:
+          host: 3.130.110.132
+          username: ec2-user
+          key: ${{ secrets.MY_PROFILE_WEBSITE }}
+          port: 22
+          script: |
+            cd /var/www/html
+            git pull origin main
+            # Additional commands to restart web server or perform other tasks
