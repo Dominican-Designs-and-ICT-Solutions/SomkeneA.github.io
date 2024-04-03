@@ -26,10 +26,10 @@ h2{
 }
 @keyframes grow {
 from {
-    font-size: 1.8rem;
+    font-size: 0.8rem;
 }
 to {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 }
 h3{
