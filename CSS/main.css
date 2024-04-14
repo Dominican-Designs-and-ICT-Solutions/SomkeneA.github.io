@@ -98,7 +98,8 @@ flex-wrap: wrap;
    padding-bottom: 40px;
    flex-basis: 100%;
    text-transform: uppercase;
-   font-size: 2rem;
+   font-size: 1.5rem;
+   font-family:freight-display-pro, sans-serif;
 
 }
 .index-category-box:nth-child(2){
