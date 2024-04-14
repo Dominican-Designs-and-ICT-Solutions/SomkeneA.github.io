@@ -364,7 +364,7 @@ flex-basis: 450px;
     
     .burger-menu ul{
         width: 100%;
-        height: calc(100vh-60px);
+        height: calc(100vh - 60px);
         display: flex;
         flex-wrap: wrap;
         align-content: flex-start;
@@ -440,7 +440,7 @@ flex-basis: 450px;
          }
         
          .index-category-box{
-            width: calc (100%-10px);
+            width: calc (100% - 10px);
             height: 200px;    
         }
         .index-about{
