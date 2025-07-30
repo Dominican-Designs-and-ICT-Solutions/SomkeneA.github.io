@@ -399,6 +399,7 @@ flex-basis: 450px;
     main {
          align-items: flex-end;
          background-size: 63vh, cover;
+         margin-top: 80px;
     }
     main .main-intro {
         padding-bottom: 10vh ;
