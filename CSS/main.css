@@ -140,6 +140,7 @@ border-radius: 30px;
     background-color: black;
     opacity: 0.1;
     transition: all ease-in-out 200ms;
+    border-radius: 30px;
 }
 
 .index-category-box:hover .dark-overlay{
