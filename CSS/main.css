@@ -405,10 +405,11 @@ flex-basis: 450px;
     }
 
     main .main-intro h1 {
-        margin: 20px;
+        margin: 50px;
         text-align: left;
         font-size: 3rem;
         line-height: 1.1;
+        margin-left: 20px;
     }
 
     main .main-intro h3{
