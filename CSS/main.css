@@ -215,25 +215,25 @@ flex-basis: 450px;
     background-color: var(--site-color-01);
  }
 
- .htmlcss{
+ .pybash{
     width: 85%;
     height: 100%;
     background-color: var(--site-color-01);
  }
 
- .js{
+ .cicd{
     width: 70%;
     height: 100%;
     background-color: var(--site-color-01);
  }
 
- .pybash{
+ .infra{
     width: 70%;
     height: 100%;
     background-color: var(--site-color-01);
  }
  
- .ps{
+ .container{
     width: 90%;
     height: 100%;
     background-color: var(--site-color-01);
@@ -245,7 +245,7 @@ flex-basis: 450px;
     background-color: var(--site-color-01);
  }
 
- .cicd{
+ .monitor{
     width: 70%;
     height: 100%;
     background-color: var(--site-color-01);
