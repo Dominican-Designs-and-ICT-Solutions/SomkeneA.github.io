@@ -411,6 +411,7 @@ flex-basis: 450px;
         font-size: 3rem;
         line-height: 1.1;
         margin-left: 20px;
+        margin-bottom: 40px;
     }
 
     main .main-intro h3{
@@ -432,7 +433,7 @@ flex-basis: 450px;
     }
 
     #main-p2{
-        display:block;
+        display:none;
         line-height: 0.9;     
         background-color: #fff;
         opacity: 0.95;    
