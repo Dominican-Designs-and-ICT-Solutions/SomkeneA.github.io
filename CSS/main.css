@@ -95,6 +95,7 @@ border-radius: 30px;
     justify-content: center;
     position: relative;
     border-radius: 30px;
+    
 }
 
 .index-category p{
@@ -405,7 +406,7 @@ flex-basis: 450px;
 
     main .main-intro h1 {
         margin: 40px;
-        text-align: center;
+        text-align: left;
         font-size: 4rem;
         line-height: 1.1;
     }
