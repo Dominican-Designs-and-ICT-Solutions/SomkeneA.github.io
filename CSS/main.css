@@ -402,6 +402,8 @@ flex-basis: 450px;
     }
     main .main-intro {
         padding-bottom: 10vh ;
+        background-color: #fff;
+        opacity: 0.95;
     }
 
     main .main-intro h1 {
