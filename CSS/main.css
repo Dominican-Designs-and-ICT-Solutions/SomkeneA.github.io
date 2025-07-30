@@ -433,10 +433,8 @@ flex-basis: 450px;
     }
 
     #main-p2{
-        display:none;
-        line-height: 0.9;     
-        background-color: #fff;
-        opacity: 0.95;    
+        display: block;
+        line-height: 0.9;         
     }
 
     #main-p1{
