@@ -402,8 +402,7 @@ flex-basis: 450px;
     }
     main .main-intro {
         padding-bottom: 10vh ;
-        background-color: #fff;
-        opacity: 0.95;
+        
     }
 
     main .main-intro h1 {
@@ -434,7 +433,9 @@ flex-basis: 450px;
 
     #main-p2{
         display:block;
-        line-height: 0.9;         
+        line-height: 0.9;     
+        background-color: #fff;
+        opacity: 0.95;    
     }
 
     #main-p1{
